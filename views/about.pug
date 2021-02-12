@@ -1,0 +1,53 @@
+extends base.pug 
+
+block style 
+    style 
+        include ../static/css/style.css 
+
+block content 
+  
+    nav#navigation.container 
+        div.navbar 
+            div.nav-left 
+                ul  
+                    li.letter-list   r
+                    li.letter-list   a
+                    li.letter-list   t
+                    li.letter-list   n
+                    li.letter-list   e
+                    li.letter-list   s
+                    li.letter-list   h
+            div.nav-right 
+                ul 
+                    li.list-item  #[a(href="/") HOME]
+                    li.list-item  #[a(href="/about") ABOUT ME]
+                    li.list-item  #[a(href="/") RESUME]
+                    li.list-item  #[a(href="/services") SERVICES]
+                    li.list-item  #[a(href="/contact") CONTACT]
+
+    section#about.container 
+        section#about-me 
+            section.about-left.about-common 
+                img(src="/static/img/me/self-logo.jpg", alt="")
+            section.about-right.about-common 
+                h1  WHO AM I ?
+                p   I know, we can never be a perfect person, but there is always the possibility of improvement. I am the kind of person who loved to be improved day by day & Deeply understand the power of consistency, which mean I truly believe that
+                    |    drop of water-filled daily in an infinite container can make it ocean but only with the right purpose, preserve and direction.
+                aside.mini-about 
+                    h4  Javascript 
+                    div.div-mini-about 
+                        span.div-1  85%
+                        
+                aside.mini-about 
+                    h4  Javascript 
+                    div.div-mini-about 
+                        span.div-1  85%
+                aside.mini-about 
+                    h4  Javascript 
+                    div.div-mini-about 
+                        span.div-1  85%
+                aside.mini-about 
+                    h4  Javascript 
+                    div.div-mini-about 
+                        span.div-1  85%
+  

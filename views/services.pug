@@ -1,0 +1,50 @@
+extends base.pug 
+
+block style 
+    style 
+        include ../static/css/style.css 
+
+block content 
+
+    nav#navigation.container 
+        div.navbar 
+            div.nav-left 
+                ul  
+                    li.letter-list   r
+                    li.letter-list   a
+                    li.letter-list   t
+                    li.letter-list   n
+                    li.letter-list   e
+                    li.letter-list   s
+                    li.letter-list   h
+            div.nav-right 
+                ul 
+                    li.list-item  #[a(href="/") HOME]
+                    li.list-item  #[a(href="/about") ABOUT ME]
+                    li.list-item  #[a(href="/") RESUME]
+                    li.list-item  #[a(href="/services") SERVICES]
+                    li.list-item  #[a(href="/contact") CONTACT]
+    
+    
+    section#services.container 
+        div.services-section 
+            h1  My Offered Services 
+            p   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis quidem.
+
+            div.services-cards 
+                div.card-1 
+                    h4 
+                        img(src="/static/img/services/rocket.png", alt="")
+                        span    Graphics
+                    p   Lorem ipsum dolor sit amet consectetur a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur saepe ipsa consequuntur temporibus animi ipsum quaerat, repudiandae itaque nemo! Laudantium, hic eum! dipisicing elit. Vitae fuga cupiditate possimus tempore, ex nisi?
+                    
+                div.card-1 
+                    h4 
+                        img(src="/static/img/services/laptop.png", alt="")
+                        span    Graphics
+                    p   Lorem ipsum dolor sit amet consectetur a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur saepe ipsa consequuntur temporibus animi ipsum quaerat, repudiandae itaque nemo! Laudantium, hic eum! dipisicing elit. Vitae fuga cupiditate possimus tempore, ex nisi?
+                div.card-1 
+                    h4 
+                        img(src="/static/img/services/trend.png", alt="")
+                        span    Graphics
+                    p   Lorem ipsum dolor sit amet consectetur a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur saepe ipsa consequuntur temporibus animi ipsum quaerat, repudiandae itaque nemo! Laudantium, hic eum! dipisicing elit. Vitae fuga cupiditate possimus tempore, ex nisi?

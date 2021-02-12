@@ -1,0 +1,23 @@
+{
+  "name": "resumewithpug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratneshjoshi2409/KanhaResume.git"
+  },
+  "author": "ratnesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ratneshjoshi2409/KanhaResume/issues"
+  },
+  "homepage": "https://github.com/ratneshjoshi2409/KanhaResume#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}

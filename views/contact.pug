@@ -1,0 +1,52 @@
+extends base.pug 
+
+//- block style 
+    //- style   
+        //- include ../static/css/style.css 
+
+block content 
+
+    nav#navigation.container 
+        div.navbar 
+            div.nav-left 
+                ul  
+                    li.letter-list   r
+                    li.letter-list   a
+                    li.letter-list   t
+                    li.letter-list   n
+                    li.letter-list   e
+                    li.letter-list   s
+                    li.letter-list   h
+            div.nav-right 
+                ul 
+                    li.list-item  #[a(href="/") HOME]
+                    li.list-item  #[a(href="/about") ABOUT ME]
+                    li.list-item  #[a(href="/") RESUME]
+                    li.list-item  #[a(href="/services") SERVICES]
+                    li.list-item  #[a(href="/contact") CONTACT]
+
+    section#contact.container 
+        div.contact-section 
+            h1  Contact Me 
+            p   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor maiores atque dolorum?
+
+            div.contact-cards 
+                div.cards-a 
+                    img(src="/static/img/contact/call.png", alt="")
+                    h4  +91 8982885767
+                    
+                div.cards-a 
+                    img(src="/static/img/contact/email.png", alt="")
+                    h4  mr.ratneshjoshi@gmail.com 
+
+                div.cards-a 
+                    img(src="/static/img/contact/globe.png", alt="")
+                    h4  www.ratneshjoshi.com 
+
+            div.contact-button
+                button.btn 
+                    img(src="/static/img/contact/download.png", alt="")
+                    span#resume  Resume 
+                button.btn 
+                    img(src="/static/img/contact/rocket.png", alt="")
+                    span    Hire Me 

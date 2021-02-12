@@ -1,0 +1,155 @@
+extends base.pug
+
+block style
+    style 
+        include ../static/css/style.css 
+
+block content 
+
+    header#intro.container 
+        div.intro-child 
+            div.user-box 
+                img(src="/static/img/me/self-logo.jpg", alt="My logo")
+                h1  Ratnesh Joshi 
+                p   Full Stack Developer 
+                div.scroll-btn  
+                    div.scroll.bar 
+                        span  #[a(href="")] 
+
+    nav#navigation.container 
+        div.navbar 
+            div.nav-left 
+                ul  
+                    li.letter-list   r
+                    li.letter-list   a
+                    li.letter-list   t
+                    li.letter-list   n
+                    li.letter-list   e
+                    li.letter-list   s
+                    li.letter-list   h
+            div.nav-right 
+                ul 
+                    li.list-item  #[a(href="/") HOME]
+                    li.list-item  #[a(href="/about") ABOUT ME]
+                    li.list-item  #[a(href="/") RESUME]
+                    li.list-item  #[a(href="/services") SERVICES]
+                    li.list-item  #[a(href="/contact") CONTACT]
+    
+    section#about.container 
+        section#about-me 
+            section.about-left.about-common 
+                img(src="/static/img/me/self-logo.jpg", alt="")
+            section.about-right.about-common 
+                h1  WHO AM I ?
+                p   I know, we can never be a perfect person, but there is always the possibility of improvement. I am the kind of person who loved to be improved day by day & Deeply understand the power of consistency, which mean I truly believe that
+                    |    drop of water-filled daily in an infinite container can make it ocean but only with the right purpose, preserve and direction.
+                aside.mini-about 
+                    h4  Javascript 
+                    div.div-mini-about 
+                        span.div-1  85%
+                        
+                aside.mini-about 
+                    h4  Javascript 
+                    div.div-mini-about 
+                        span.div-1  85%
+                aside.mini-about 
+                    h4  Javascript 
+                    div.div-mini-about 
+                        span.div-1  85%
+                aside.mini-about 
+                    h4  Javascript 
+                    div.div-mini-about 
+                        span.div-1  85%
+    
+    section#edu-exp.container 
+        div.edu-exp-section 
+            div.education 
+                h1 My Education 
+                div.e-column 
+                    h4  2018 - Bachelor of Technology
+                    p   "At this stage of my life, I realized that I going to do great work and deeply feel that to achieve the expertise in my field, I have to consciously spend time and be focused on each repetition and be consistent about my work.
+                        |    and also feel the importance of spirituality and exercise in the part of my life."
+                    p   
+                        strong Institute 
+                        span    Medi-Caps University Indore 
+                    p 
+                        strong Session 
+                        span    2018-2020 (Drop-Out)
+                    p   
+                        strong Aggregate     
+                        span    Null
+                div.e-column 
+                    h4  2018 - Bachelor of Technology
+                    p   "At this stage of my life, I realized that I going to do great work and deeply feel that to achieve the expertise in my field, I have to consciously spend time and be focused on each repetition and be consistent about my work.
+                        |    and also feel the importance of spirituality and exercise in the part of my life."
+                    p   
+                        strong Institute 
+                        span    Medi-Caps University Indore 
+                    p 
+                        strong Session 
+                        span    2018-2020 (Drop-Out)
+                    p   
+                        strong Aggregate     
+                        span    Null
+                div.e-column 
+                    h4  2018 - Bachelor of Technology
+                    p   "At this stage of my life, I realized that I going to do great work and deeply feel that to achieve the expertise in my field, I have to consciously spend time and be focused on each repetition and be consistent about my work.
+                        |    and also feel the importance of spirituality and exercise in the part of my life."
+                    p   
+                        strong Institute 
+                        span    Medi-Caps University Indore 
+                    p 
+                        strong Session 
+                        span    2018-2020 (Drop-Out)
+                    p   
+                        strong Aggregate     
+                        span    Null
+
+    section#services.container 
+        div.services-section 
+            h1  My Offered Services 
+            p   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, perferendis quidem.
+
+            div.services-cards 
+                div.card-1 
+                    h4 
+                        img(src="/static/img/services/rocket.png", alt="")
+                        span    Graphics
+                    p   Lorem ipsum dolor sit amet consectetur a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur saepe ipsa consequuntur temporibus animi ipsum quaerat, repudiandae itaque nemo! Laudantium, hic eum! dipisicing elit. Vitae fuga cupiditate possimus tempore, ex nisi?
+                    
+                div.card-1 
+                    h4 
+                        img(src="/static/img/services/laptop.png", alt="")
+                        span    Graphics
+                    p   Lorem ipsum dolor sit amet consectetur a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur saepe ipsa consequuntur temporibus animi ipsum quaerat, repudiandae itaque nemo! Laudantium, hic eum! dipisicing elit. Vitae fuga cupiditate possimus tempore, ex nisi?
+                div.card-1 
+                    h4 
+                        img(src="/static/img/services/trend.png", alt="")
+                        span    Graphics
+                    p   Lorem ipsum dolor sit amet consectetur a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur saepe ipsa consequuntur temporibus animi ipsum quaerat, repudiandae itaque nemo! Laudantium, hic eum! dipisicing elit. Vitae fuga cupiditate possimus tempore, ex nisi?
+
+    section#contact.container 
+        div.contact-section 
+            h1  Contact Me 
+            p   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor maiores atque dolorum?
+
+            div.contact-cards 
+                div.cards-a 
+                    img(src="/static/img/contact/call.png", alt="")
+                    h4  +91 8982885767
+                    
+                div.cards-a 
+                    img(src="/static/img/contact/email.png", alt="")
+                    h4  mr.ratneshjoshi@gmail.com 
+
+                div.cards-a 
+                    img(src="/static/img/contact/globe.png", alt="")
+                    h4  www.ratneshjoshi.com 
+
+            div.contact-button
+                button.btn 
+                    img(src="/static/img/contact/download.png", alt="")
+                    span#resume  Resume 
+                button.btn 
+                    img(src="/static/img/contact/rocket.png", alt="")
+                    span    Hire Me 
